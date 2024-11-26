@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test.describe.only(`Possitive Login Scenarios`, () => {
+test.describe(`Possitive Login Scenarios`, () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("https://example.com");
 

@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { afterEach } from "node:test";
 
-test.describe.only(`Possitive Login Scenarios`, () => {
+test.describe(`Possitive Login Scenarios`, () => {
     
 
   test("Check Scenario for standard_user + secret_sauce ", async ({ page }) => {

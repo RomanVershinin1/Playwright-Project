@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test.describe.only("PositiveTest", () => {
+test.describe("PositiveTest", () => {
   test(`Test1`, async ({ page }) => {
     await page.goto("https://www.saucedemo.com/");
     await page.locator('[data-test="username"]').click();
