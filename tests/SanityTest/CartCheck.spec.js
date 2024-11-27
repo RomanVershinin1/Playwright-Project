@@ -21,6 +21,7 @@ test.describe('PositiveTest', () => {
         await expect(page.locator(`[data-test="title"]`)).toContainText(
             `Your Cart`,
         )
+        // test
         await expect.toHaveText('Sauce Labs Backpackcarry.')// what is this assertion? it's not a valid playwright validation
         await expect.toHaveText('Sauce Labs Bike LightA red') // what is this assertion? it's not a valid playwright validation
         await expect(
